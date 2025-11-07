@@ -1,0 +1,30 @@
+# requirements.txt
+
+# --- 데이터 분석 및 처리 기본 라이브러리 ---
+pandas
+numpy
+tqdm
+
+# --- AI 모델 및 딥러닝 관련 ---
+# PyTorch (torch, torchvision)는 CPU/GPU 버전에 따라 설치 명령이 다르므로,
+# 아래 명령어로 별도 설치하는 것을 권장합니다.
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+transformers[torch]
+datasets
+safetensors
+scikit-learn
+
+# --- 웹 크롤링 관련 ---
+requests
+beautifulsoup4
+lxml
+selenium
+webdriver-manager
+
+# --- 기타 유틸리티 ---
+pytz
+
+# LLM 및 임베딩 모델
+sentence-transformers
+ollama
+tqdm

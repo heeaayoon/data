@@ -1,0 +1,40 @@
+0. 맨 먼저 실행 
+AIDA>pip install -r requirements.txt
+
+1. 뉴스 데이터 / 실행 순서
+AIDA>src
+(News_PRE_Utils.py)
+News_PRE_Run.py 실행
+(News_sampling_data400.py)
+(News_sampling_data5000.py)
+
+News_CLA_Train_n_Test.py
+News_CLA_Predict.py
+
+News_CLU_clustering.py
+(News_CLU_cluster_summary.py)
+News_CLU_Event_name.py
+
+2. 법안 데이터 / 코드 정리
+(Law_PRE_Utils.py)
+Law_PRE_Run.py 실행
+
+(Law_RAG_Utils.py)
+Law_RAG_Run.py 실행
+
+3. 소셜 데이터 /코드 정리
+(Social_PRE_Utils.py)
+Social_PRE_run.py 실행
+Social_EMO_Train.py
+Social_EMO_Test.py
+
+4. 뉴스 댓글 /코드 정리
+(Comment_CRAWL_Utils.py)
+Comment_CRAWL_Run.py 실행
+
+4-2. 소셜 데이터 /코드 정리
+크롤링 완료한 데이터를 이용해서 실행(Comment_All.csv)
+Social_EMO_Predict.py
+
+5. Score 코드 정리 
+Score.py
