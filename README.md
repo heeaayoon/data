@@ -66,11 +66,6 @@ pip install -r 라이브러리.txt
 python ./src/main.py
 ```
 
-- 모델은 아래 링크를 사용하세요. 
-    - news_model (구글 드라이브 링크)
-    - social_model (구글 드라이브 링크)
-    - score_model (구글 드라이브 링크)
-
 ## 6. 참고자료
 
 - [데이터 기반 입법수요 예측 모형 개발 및 고도화](https://drive.google.com/file/d/1lW29PN39le9CdwBM2IKu_4khDGqiXWB5/view?usp=sharing)
